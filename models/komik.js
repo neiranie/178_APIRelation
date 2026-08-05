@@ -21,10 +21,6 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.INTEGER,
             allowNull: false
         },
-        genreId: {
-            type: DataTypes.INTEGER,
-            allowNull: false
-        }
     }, {
         tableName: "komik",
         timestamps: true
